@@ -1,0 +1,5 @@
+{
+  "name": "Robertin AI Studio",
+  "description": "A professional AI-powered image generation and editing studio using Google's Gemini API. Create original artwork from text prompts or edit existing images with intuitive tools.",
+  "requestFramePermissions": []
+}
