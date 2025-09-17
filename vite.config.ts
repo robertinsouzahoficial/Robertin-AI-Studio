@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => {
       },
       resolve: {
         alias: {
-          '@': path.resolve(__dirname, '.'),
+          '@services': path.resolve(__dirname, 'src/services')
         }
       }
     };

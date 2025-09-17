@@ -1,7 +1,7 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import type { Mode, CreateFunction, EditFunction, ImageData, FunctionCardData } from './types';
 // FIX: Removed `initGemini` as it's no longer needed. Gemini service is now auto-initialized.
-import { generateImageFromText, editImageWithPrompt } from '../services/geminiService';
+import { generateImageFromText, editImageWithPrompt } from '@services/geminiService';
 
 // --- ICON COMPONENTS ---
 const PromptIcon: React.FC = () => (

@@ -12,4 +12,8 @@ branch = "refs/heads/main"
 NODE_VERSION = "18"
 
 [build.cache]
+<<<<<<< HEAD
   paths = ["node_modules/**", "package-lock.json"]
+=======
+  paths = ["node_modules/**", "package-lock.json"]
+>>>>>>> 0d2753a565da61d5a5fe2b4042be02b8d76c4582
