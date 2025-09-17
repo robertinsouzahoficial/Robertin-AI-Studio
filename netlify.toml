@@ -10,5 +10,5 @@
 [build.environment]
 NODE_VERSION = "18"
 
-[build.environment]
-GEMINI_API_KEY=PLACEHOLDER_API_KEY
+[build.cache]
+  paths = ["node_modules/**", "package-lock.json"]
