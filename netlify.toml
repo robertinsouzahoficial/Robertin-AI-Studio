@@ -1,6 +1,7 @@
 [build]
-  command = "npm run build"
-  publish = "dist"
+publish = "dist"
+command = "npm run build"
+branch = "refs/heads/main"
 
 [[redirects]]
   from = "/*"
@@ -8,4 +9,7 @@
   status = 20
   
 [build.environment]
-NODE_VERSION = "20.11.0"
+NODE_VERSION = "18"
+
+[build.cache]
+  paths = ["node_modules/**", "package-lock.json"]

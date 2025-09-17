@@ -1,3 +1,5 @@
+import type { ReactElement } from 'react';
+
 export type Mode = 'create' | 'edit';
 export type CreateFunction = 'free' | 'sticker' | 'text' | 'comic' | 'thumbnail' | 'advertisement';
 export type EditFunction = 'add-remove' | 'retouch' | 'style' | 'compose';
@@ -11,6 +13,6 @@ export interface ImageData {
 export interface FunctionCardData {
   id: CreateFunction | EditFunction;
   name: string;
-  icon: JSX.Element;
+  icon: ReactElement;
   requiresTwo?: boolean;
 }
