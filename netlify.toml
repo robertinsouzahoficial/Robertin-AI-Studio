@@ -8,4 +8,7 @@
   status = 20
   
 [build.environment]
-NODE_VERSION = "20.11.0"
+NODE_VERSION = "18"
+
+[build.environment]
+GEMINI_API_KEY=PLACEHOLDER_API_KEY
