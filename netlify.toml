@@ -8,4 +8,4 @@
   status = 20
   
 [build.environment]
-NODE_VERSION = "20.11.1"
+NODE_VERSION = "20.11.0"
